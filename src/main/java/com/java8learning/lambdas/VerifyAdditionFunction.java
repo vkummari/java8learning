@@ -9,8 +9,10 @@ public class VerifyAdditionFunction {
 		Integer[] intSecondSet = {2, 4, 5};
 		
 		System.out.println(AdditionFuncFactory.create(AdditionFunctionImpl::new).add(intValues));
+		System.out.println(AdditionFuncFactory.create(AdditionFunctionImpl::new).doSum("Hello"));
 		
 		System.out.println(AdditionFuncFactory.create(AdditionFunctionImpl2::new).add(intSecondSet));
+		
 	}
 
 }

@@ -14,4 +14,14 @@ public interface AdditionFunction {
 	{
 		System.out.println("Does nothing");
 	}
+	
+	default void doNothing(String word)
+	{
+		System.out.println("Does nothing");
+	}
+	
+	default int doSum(String word)
+	{
+		return 0;
+	}
 }
