@@ -8,6 +8,7 @@ public class VerifyAdditionFunction {
 		
 		Integer[] intSecondSet = {2, 4, 5};
 		
+		//An example of constructor reference
 		System.out.println(AdditionFuncFactory.create(AdditionFunctionImpl::new).add(intValues));
 		System.out.println(AdditionFuncFactory.create(AdditionFunctionImpl::new).doSum("Hello"));
 		
